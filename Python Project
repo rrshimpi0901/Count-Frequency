@@ -1,0 +1,10 @@
+print("Python Project: Count Frequency, No of occurrence")
+str=input("Enter String: ")
+#print(str)
+l=list(str)
+#print(l)
+#l.count("l")
+freq=[l.count(ele) for ele in l]
+#print (freq)
+d=dict(zip(l,freq))
+print(d)
